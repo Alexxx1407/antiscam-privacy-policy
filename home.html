@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091520">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="AntiScam, votre futur compagnon de cybersécurité Android : analyse des applications, liens suspects et conseils anti-arnaque, avec une approche respectueuse de la vie privée.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AntiScam — La cybersécurité, simplement">
+  <meta property="og:description" content="Une application Android de protection contre les arnaques, pensée pour être claire, légère et respectueuse de votre vie privée.">
+  <meta property="og:url" content="https://alexxx1407.github.io/antiscam-privacy-policy/home.html">
+  <meta name="robots" content="index,follow">
+  <title>AntiScam — La cybersécurité, simplement</title>
+  <style>
+    :root{--bg:#08131e;--bg2:#0c1b29;--panel:#101f2d;--panel2:#122635;--line:#243a49;--text:#ecf6fa;--muted:#9bb0bd;--muted2:#718d9d;--accent:#70e6ce;--accent2:#8dc9ff;--good:#7fe2c8;--radius:20px;--max:1140px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:100px}
+    body{margin:0;background:var(--bg);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+    .container{width:min(var(--max),calc(100% - 48px));margin-inline:auto}
+    .site-header{position:sticky;top:0;z-index:50;background:rgba(8,19,30,.9);border-bottom:1px solid rgba(139,171,188,.14);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+    .header-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:inline-flex;align-items:center;gap:12px;font-weight:780;letter-spacing:-.04em;font-size:21px;flex-shrink:0}
+    .mark{width:39px;height:43px;display:inline-flex;align-items:center;justify-content:center}
+    .mark svg{width:39px;height:43px}
+    .top-nav{display:flex;gap:28px;align-items:center;margin-left:auto}
+    .top-nav a,.footlinks a{font-size:13px;color:#bfd0da;transition:color .15s}
+    .top-nav a:hover,.footlinks a:hover{color:var(--accent)}
+    .language-toggle{display:flex;align-items:center;border:1px solid var(--line);background:#132533;padding:3px;border-radius:999px;gap:2px}
+    .language-toggle button{color:#93acbb;border:0;background:transparent;cursor:pointer;min-width:38px;padding:6px 9px;border-radius:999px;font-size:12px;font-weight:700}
+    .language-toggle button[aria-pressed="true"]{background:#31535c;color:#e6fff8}
+    .hero{position:relative;isolation:isolate;overflow:hidden;padding:105px 0 92px;background:radial-gradient(ellipse 65% 52% at 80% 12%,rgba(29,108,127,.24),transparent 70%),radial-gradient(ellipse 35% 48% at 10% 70%,rgba(18,64,96,.14),transparent 80%)}
+    .hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(150,206,211,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(150,206,211,.025) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom,#000,transparent 88%);z-index:-1}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:78px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border:1px solid rgba(112,230,206,.28);border-radius:999px;background:rgba(36,111,108,.12);color:#b7f7e7;font-size:11px;font-weight:750;letter-spacing:.11em;text-transform:uppercase}
+    .eyebrow:before{content:"";width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 4px rgba(112,230,206,.12)}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(42px,5.3vw,72px);line-height:1.09;letter-spacing:-.068em;margin:26px 0 24px;font-weight:780}
+    h1 .accent{color:var(--accent)}
+    .hero-lead{max-width:555px;font-size:17px;color:#bbccd6;line-height:1.85;margin-bottom:30px}
+    .actions{display:flex;flex-wrap:wrap;gap:11px;align-items:center}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:10px;padding:13px 19px;border-radius:12px;font-weight:750;font-size:13px;line-height:1.25;transition:transform .15s,background .15s,border .15s;border:1px solid transparent;min-height:47px}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--accent);color:#07272a}
+    .btn-primary:hover{background:#9bf5e0}
+    .btn-secondary{background:rgba(17,38,53,.65);border-color:#35505d;color:#e2f0f4}
+    .btn-secondary:hover{background:#1d3746;border-color:#5f8994}
+    .tiny-note{display:flex;align-items:center;gap:9px;color:var(--muted2);font-size:12px;margin-top:21px}
+    .tiny-note svg{color:var(--accent);flex-shrink:0}
+    .preview-wrap{position:relative;max-width:470px;margin-left:auto;width:100%}
+    .preview-halo{position:absolute;z-index:-1;inset:13% -13%;border-radius:50%;background:radial-gradient(circle,rgba(31,157,153,.24),transparent 68%);filter:blur(24px)}
+    .preview-card{background:linear-gradient(160deg,#162b39,#0d1d2a 72%);border:1px solid #34535f;border-radius:28px;padding:23px;box-shadow:0 26px 80px rgba(0,0,0,.32),inset 0 1px 0 rgba(255,255,255,.04)}
+    .preview-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:22px}
+    .preview-top .app-name{display:inline-flex;align-items:center;gap:9px;font-weight:780;font-size:16px;letter-spacing:-.03em}
+    .preview-top .app-name svg{width:27px;height:29px}
+    .preview-dot{display:inline-flex;gap:4px}.preview-dot i{display:block;width:4px;height:4px;border-radius:50%;background:#6b929e}
+    .inner-panel{background:linear-gradient(135deg,#163541,#13303c);border:1px solid #2a5961;border-radius:20px;padding:24px 23px}
+    .inner-icon{width:51px;height:51px;display:grid;place-items:center;border-radius:15px;background:rgba(112,230,206,.11);border:1px solid rgba(112,230,206,.22);margin-bottom:18px}
+    .inner-icon svg{width:30px;height:30px;color:var(--accent)}
+    .inner-panel .preview-label{font-size:12px;color:#abd6d0;margin-bottom:7px}
+    .inner-panel h3{font-size:23px;line-height:1.28;letter-spacing:-.04em;margin-bottom:11px}
+    .inner-panel p{color:#a6c3c9;font-size:12px;line-height:1.7;margin:0}
+    .preview-subhead{color:#b1c6d0;font-size:12px;font-weight:750;margin:23px 0 12px}
+    .preview-row{display:flex;align-items:center;gap:11px;padding:12px 13px;background:#142937;border:1px solid rgba(120,175,189,.15);border-radius:13px;margin-top:8px}
+    .preview-row .row-icon{width:33px;height:33px;display:grid;place-items:center;border-radius:9px;background:#203c49;color:#9ddad0;flex-shrink:0}
+    .preview-row .row-icon svg{width:17px;height:17px}
+    .preview-row .row-info{display:flex;flex-direction:column;gap:1px;min-width:0;flex:1}
+    .preview-row .row-info strong{font-size:12px;font-weight:700}
+    .preview-row .row-info small{color:#86a9b7;font-size:10px}
+    .right-chevron{color:#7fa4b0}
+    .preview-caption{text-align:center;font-size:11px;color:#7b9aa9;margin:13px 0 0}
+    .trust-strip{border-top:1px solid rgba(124,177,190,.12);border-bottom:1px solid rgba(124,177,190,.12);background:#0d1b27}
+    .trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-block:27px}
+    .trust-item{display:flex;align-items:center;gap:12px;color:#c2d3dc;font-size:13px;font-weight:650}
+    .trust-item svg{color:var(--accent);width:22px;height:22px;flex-shrink:0}
+    section.content-section{padding:103px 0}
+    .section-heading{max-width:715px;margin-bottom:40px}
+    .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--accent);margin:0 0 13px}
+    h2{font-size:clamp(29px,3.5vw,43px);line-height:1.17;letter-spacing:-.05em;margin:0 0 16px}
+    .section-heading>p:last-child,.intro-copy{font-size:15px;color:#a9becb;line-height:1.85;margin:0}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .feature{position:relative;overflow:hidden;min-height:226px;padding:27px 25px;background:linear-gradient(145deg,#122432,#0d1d2b);border:1px solid #243d4b;border-radius:18px;transition:border .18s,transform .18s}
+    .feature:hover{border-color:#3b6872;transform:translateY(-3px)}
+    .feature-icon{display:grid;place-items:center;width:45px;height:45px;border:1px solid #2e5861;background:#193943;color:var(--accent);border-radius:13px;margin-bottom:21px}
+    .feature-icon svg{width:23px;height:23px}
+    .feature h3{font-size:17px;letter-spacing:-.025em;margin:0 0 9px}
+    .feature p{color:#9cb3c1;font-size:13px;line-height:1.75;margin:0}
+    .mini-tag{display:inline-flex;margin-top:18px;color:#88cfbf;font-size:11px;font-weight:700}
+    .mini-tag.future{color:#a9c3d1}
+    .privacy-section{padding:0 0 103px}
+    .privacy-panel{border:1px solid #2e535a;background:radial-gradient(ellipse at 87% 25%,rgba(27,115,118,.24),transparent 52%),linear-gradient(130deg,#132f3b,#0d1e2b);border-radius:24px;padding:54px 55px;display:grid;grid-template-columns:.95fr 1.05fr;gap:75px;align-items:center}
+    .privacy-panel h2{max-width:470px}
+    .privacy-panel p{color:#b2c8d0;font-size:14px;line-height:1.8;margin-bottom:25px}
+    .privacy-points{display:grid;gap:11px}
+    .privacy-point{display:flex;align-items:flex-start;gap:13px;padding:12px 0;border-bottom:1px solid rgba(173,207,211,.13)}
+    .privacy-point:last-child{border:0}
+    .check-icon{width:23px;height:23px;flex-shrink:0;color:var(--accent)}
+    .privacy-point strong{display:block;font-size:14px;margin-bottom:2px}
+    .privacy-point span{display:block;font-size:12px;color:#a3bfcb;line-height:1.65}
+    .how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+    .how-step{border-top:1px solid #355360;padding-top:22px}
+    .how-number{color:var(--accent);font-size:13px;font-weight:800;letter-spacing:.1em;margin-bottom:21px}
+    .how-step h3{font-size:19px;margin-bottom:10px;letter-spacing:-.03em}
+    .how-step p{font-size:13px;color:#a1b6c3;line-height:1.85}
+    .roadmap-note{margin-top:28px;padding:15px 19px;border:1px solid #2d4e59;border-radius:12px;background:#102530;color:#aac6d2;font-size:13px}
+    .roadmap-note strong{color:#dbf7ed}
+    .faq{max-width:900px;margin-inline:auto}
+    .faq h2{margin-bottom:29px}
+    details{border-bottom:1px solid #2c4351;padding:17px 0}
+    details:first-of-type{border-top:1px solid #2c4351}
+    summary{cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:18px;font-size:15px;font-weight:710;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";color:var(--accent);font-size:23px;font-weight:400;line-height:1}
+    details[open] summary:after{content:"−"}
+    details p{margin:13px 0 5px;max-width:750px;color:#a9bdca;font-size:13px;line-height:1.85}
+    .contact-box{margin:95px 0 0;border:1px solid #31545e;border-radius:24px;background:radial-gradient(ellipse at 15% 0%,rgba(46,143,138,.15),transparent 50%),#102530;padding:39px 44px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+    .contact-box h2{font-size:27px;margin-bottom:8px}
+    .contact-box p{color:#a9c0cd;font-size:13px;margin:0}
+    .site-footer{border-top:1px solid #263d4c;padding:32px 0 43px;background:#091520}
+    .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .footer-brand{font-weight:750;letter-spacing:-.02em;font-size:15px}
+    .footer-brand span{display:block;font-weight:400;color:#829ca9;font-size:11px;letter-spacing:0;margin-top:4px}
+    .footlinks{display:flex;gap:20px;flex-wrap:wrap}
+    .copyright{font-size:11px;color:#6f8999}
+    @media(max-width:970px){.hero-grid{gap:35px}.privacy-panel{gap:35px;padding:38px}.feature-grid{grid-template-columns:repeat(2,1fr)}h1{font-size:53px}.top-nav{gap:17px}}
+    @media(max-width:760px){.container{width:min(var(--max),calc(100% - 34px))}.header-inner{min-height:69px}.top-nav{display:none}.hero{padding:63px 0 70px}.hero-grid{grid-template-columns:1fr;gap:40px}h1{font-size:clamp(40px,11vw,57px)}.hero-lead{font-size:15px}.preview-wrap{margin:auto;max-width:450px}.trust-grid{grid-template-columns:1fr;gap:19px;padding:26px 0}.trust-item{font-size:13px}section.content-section{padding:75px 0}.privacy-section{padding-bottom:75px}.privacy-panel{grid-template-columns:1fr;gap:12px;padding:33px 26px}.how-grid{grid-template-columns:1fr;gap:12px}.how-step{padding-top:17px}.how-number{margin-bottom:11px}.contact-box{margin-top:67px;flex-direction:column;align-items:flex-start;padding:30px 24px}.footer-inner{align-items:flex-start;flex-direction:column;gap:23px}}
+    @media(max-width:490px){.feature-grid{grid-template-columns:1fr}.feature{min-height:0}.preview-card{padding:16px;border-radius:21px}.inner-panel{padding:19px}.btn{width:100%}.actions{width:100%}.contact-box .btn{width:100%}.footlinks{gap:13px 20px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.feature{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="AntiScam — Accueil">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 44 48" fill="none"><path d="M22 3 39 10v12c0 12.7-7.4 19.7-17 23C12.4 41.7 5 34.7 5 22V10L22 3Z" stroke="#70E6CE" stroke-width="3" stroke-linejoin="round"/><path d="m14.3 23.8 5.1 5.1 10.8-11.5" stroke="#70E6CE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        AntiScam
+      </a>
+      <nav class="top-nav" aria-label="Navigation principale">
+        <a href="#features" data-t="nav.features">Fonctionnalités</a>
+        <a href="#privacy" data-t="nav.privacy">Confidentialité</a>
+        <a href="#about" data-t="nav.about">Notre approche</a>
+        <a href="#contact" data-t="nav.contact">Contact</a>
+      </nav>
+      <div class="language-toggle" role="group" aria-label="Language / Langue">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow" data-t="hero.badge">Application Android en développement</div>
+          <h1 id="hero-title"><span data-t="hero.title1">La cybersécurité,</span><br><span class="accent" data-t="hero.title2">sans complication.</span></h1>
+          <p class="hero-lead" data-t="hero.intro">AntiScam est conçu pour vous aider à repérer les arnaques, analyser les risques sur votre téléphone et savoir quoi faire face à un message suspect. Une protection claire, sans jargon ni publicité.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#features"><span data-t="hero.cta1">Découvrir AntiScam</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+            <a class="btn btn-secondary" href="./" data-t="hero.cta2">Politique de confidentialité</a>
+          </div>
+          <div class="tiny-note"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg><span data-t="hero.note">Protection pensée pour Android · Français et anglais</span></div>
+        </div>
+        <div class="preview-wrap">
+          <div class="preview-halo" aria-hidden="true"></div>
+          <div class="preview-card" aria-label="Maquette illustrative de l'application AntiScam">
+            <div class="preview-top"><span class="app-name"><svg viewBox="0 0 44 48" fill="none" aria-hidden="true"><path d="M22 3 39 10v12c0 12.7-7.4 19.7-17 23C12.4 41.7 5 34.7 5 22V10L22 3Z" stroke="#70E6CE" stroke-width="3" stroke-linejoin="round"/><path d="m14.3 23.8 5.1 5.1 10.8-11.5" stroke="#70E6CE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>AntiScam</span><span class="preview-dot" aria-hidden="true"><i></i><i></i><i></i></span></div>
+            <div class="inner-panel"><div class="inner-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="M12 8v4m0 4h.01"/></svg></div><p class="preview-label" data-t="mock.label">VOTRE SÉCURITÉ, SIMPLEMENT</p><h3 data-t="mock.heading">Comprendre les risques. Agir en confiance.</h3><p data-t="mock.desc">Des résultats lisibles et des recommandations concrètes, sans fausse promesse de sécurité absolue.</p></div>
+            <p class="preview-subhead" data-t="mock.modules">Fonctionnalités prévues</p>
+            <div class="preview-row"><span class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span class="row-info"><strong data-t="mock.item1">Audit des applications</strong><small data-t="mock.sub1">Analyse des risques accessibles</small></span><span class="right-chevron">›</span></div>
+            <div class="preview-row"><span class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.1 0l3-3a5 5 0 0 0-7.1-7.1l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.1 0l-3 3a5 5 0 0 0 7.1 7.1l1.7-1.7"/></svg></span><span class="row-info"><strong data-t="mock.item2">Liens et QR codes</strong><small data-t="mock.sub2">Recherche de signaux d'arnaque</small></span><span class="right-chevron">›</span></div>
+            <div class="preview-row"><span class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 3 5 3 9h8c0-4 3-4 3-9a7 7 0 0 0-7-7Z"/><path d="M9 22h6m-6-4h6"/></svg></span><span class="row-info"><strong data-t="mock.item3">Aide en cas d'arnaque</strong><small data-t="mock.sub3">Étapes claires pour réagir</small></span><span class="right-chevron">›</span></div>
+          </div>
+          <p class="preview-caption" data-t="mock.caption">Aperçu illustratif · Toutes les fonctions ne sont pas encore disponibles</p>
+        </div>
+      </div>
+    </section>
+    <div class="trust-strip"><div class="container trust-grid">
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M10 18h4"/></svg><span data-t="trust.one">Analyse locale privilégiée</span></div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span data-t="trust.two">Accès sensibles sur autorisation</span></div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="M9 9h6m-6 3h6"/></svg><span data-t="trust.three">Sans publicités ni pistage publicitaire</span></div>
+    </div></div>
+    <section id="features" class="content-section" aria-labelledby="features-title"><div class="container">
+      <div class="section-heading"><p class="kicker" data-t="features.kicker">UNE SÉCURITÉ UTILE AU QUOTIDIEN</p><h2 id="features-title" data-t="features.title">L'essentiel pour repérer les pièges numériques.</h2><p data-t="features.intro">AntiScam réunit des outils de prévention, d'analyse et d'assistance. Les fonctionnalités ci-dessous sont en cours de développement ou prévues pour de futures versions.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="m9 11 2 2 4-4"/></svg></span><h3 data-t="feature.a.title">Audit des applications</h3><p data-t="feature.a.desc">Examine les informations accessibles sur les applications installées et signale les configurations à risque.</p><span class="mini-tag" data-t="feature.core">Fonction principale en développement</span></article>
+        <article class="feature"><span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.1 0l3-3a5 5 0 0 0-7.1-7.1l-2 2"/><path d="M14 11a5 5 0 0 0-7.1 0l-3 3a5 5 0 0 0 7.1 7.1l2-2"/></svg></span><h3 data-t="feature.b.title">Détection de liens suspects</h3><p data-t="feature.b.desc">Recherche les signaux de phishing, l'usurpation de marque et les adresses trompeuses, avec des explications simples.</p><span class="mini-tag" data-t="feature.core">Fonction principale en développement</span></article>
+        <article class="feature"><span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5m6 0h5v5M4 15v5h5m6 0h5v-5"/><path d="M8 8h2v2H8zm6 0h2v2h-2zM8 14h2v2H8zm6 0h2v2h-2z"/></svg></span><h3 data-t="feature.c.title">QR codes et captures</h3><p data-t="feature.c.desc">Aide à vérifier les QR codes et les messages suspects à partir de contenus sélectionnés volontairement.</p><span class="mini-tag" data-t="feature.core">Fonction principale en développement</span></article>
+        <article class="feature"><span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 3 8 9 10 6-2 9-5 9-10V6l-9-4Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h3 data-t="feature.d.title">Mode urgence anti-arnaque</h3><p data-t="feature.d.desc">Des étapes adaptées pour agir après un lien douteux, un mot de passe divulgué ou une tentative de fraude.</p><span class="mini-tag future" data-t="feature.future">Prévu</span></article>
+        <article class="feature"><span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4"/></svg></span><h3 data-t="feature.e.title">Alertes de notifications</h3><p data-t="feature.e.desc">Analyse facultative de certaines notifications choisies par l'utilisateur, uniquement après autorisation explicite.</p><span class="mini-tag future" data-t="feature.future">Prévu</span></article>
+        <article class="feature"><span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><h3 data-t="feature.f.title">Protection Gmail facultative</h3><p data-t="feature.f.desc">Analyse des emails autorisés en lecture seule, avec consentement séparé et possibilité de retirer l'accès.</p><span class="mini-tag future" data-t="feature.future">Prévu</span></article>
+      </div>
+    </div></section>
+    <section id="privacy" class="privacy-section" aria-labelledby="privacy-title"><div class="container"><div class="privacy-panel">
+      <div><p class="kicker" data-t="privacy.kicker">LA VIE PRIVÉE D'ABORD</p><h2 id="privacy-title" data-t="privacy.title">Vos données ne devraient pas être le prix de votre sécurité.</h2><p data-t="privacy.desc">AntiScam est conçu autour d'un principe simple : n'accéder qu'aux informations nécessaires, expliquer chaque autorisation et privilégier le traitement sur l'appareil quand c'est possible.</p><a class="btn btn-secondary" href="./" data-t="privacy.link">Lire notre politique de confidentialité</a></div>
+      <div class="privacy-points">
+        <div class="privacy-point"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><div><strong data-t="privacy.a.title">Compte facultatif</strong><span data-t="privacy.a.desc">Les fonctions locales sont prévues pour fonctionner sans inscription.</span></div></div>
+        <div class="privacy-point"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><div><strong data-t="privacy.b.title">Autorisations transparentes</strong><span data-t="privacy.b.desc">L'accès aux notifications et aux emails sera toujours distinct et révocable.</span></div></div>
+        <div class="privacy-point"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><div><strong data-t="privacy.c.title">Stockage sensible protégé</strong><span data-t="privacy.c.desc">Chiffrement local et synchronisation facultative prévus pour les données concernées.</span></div></div>
+        <div class="privacy-point"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><div><strong data-t="privacy.d.title">Aucune publicité</strong><span data-t="privacy.d.desc">Un modèle gratuit avec des options Premium, sans réseau publicitaire.</span></div></div>
+      </div>
+    </div></div></section>
+    <section id="about" class="content-section" aria-labelledby="about-title"><div class="container">
+      <div class="section-heading"><p class="kicker" data-t="about.kicker">UNE AUTRE IDÉE DE LA PROTECTION</p><h2 id="about-title" data-t="about.title">Moins d'alertes inutiles. Plus de réponses utiles.</h2><p data-t="about.intro">La sécurité n'a pas besoin d'être compliquée. AntiScam vise une expérience simple, fondée sur des informations vérifiables et des actions concrètes.</p></div>
+      <div class="how-grid">
+        <div class="how-step"><div class="how-number">01</div><h3 data-t="how.a.title">Choisissez un contrôle</h3><p data-t="how.a.desc">Un lien, une application ou un contenu que vous avez décidé d'analyser.</p></div>
+        <div class="how-step"><div class="how-number">02</div><h3 data-t="how.b.title">Comprenez le résultat</h3><p data-t="how.b.desc">Des indices détaillés, un niveau de confiance et les limites de l'analyse, sans alarmisme.</p></div>
+        <div class="how-step"><div class="how-number">03</div><h3 data-t="how.c.title">Agissez simplement</h3><p data-t="how.c.desc">Des recommandations claires pour réduire le risque ou réagir à une fraude.</p></div>
+      </div>
+      <div class="roadmap-note"><strong data-t="roadmap.title">Transparence sur le lancement :</strong> <span data-t="roadmap.desc">AntiScam est en cours de développement. Les fonctions présentées décrivent la direction du produit et pourront évoluer selon les contraintes Android, les autorisations obtenues et les tests de sécurité. L'application ne promet pas de détecter toutes les menaces.</span></div>
+    </div></section>
+    <section class="content-section" style="padding-top:0" aria-labelledby="faq-title"><div class="container faq">
+      <p class="kicker" data-t="faq.kicker">QUESTIONS FRÉQUENTES</p><h2 id="faq-title" data-t="faq.title">Les réponses essentielles.</h2>
+      <details><summary data-t="faq.a.q">AntiScam est-elle gratuite ?</summary><p data-t="faq.a.a">Le modèle prévu comprend des fonctions de sécurité gratuites et un abonnement Premium facultatif pour des fonctionnalités avancées. AntiScam n'affichera pas de publicités.</p></details>
+      <details><summary data-t="faq.b.q">Faut-il créer un compte ?</summary><p data-t="faq.b.a">Non. Les outils locaux sont conçus pour fonctionner sans compte. Une connexion Google pourra être proposée pour certaines fonctions facultatives, comme la synchronisation.</p></details>
+      <details><summary data-t="faq.c.q">AntiScam peut-elle lire tous mes emails ?</summary><p data-t="faq.c.a">Non, aucun accès Gmail ne sera accordé automatiquement. La connexion à un compte et l'autorisation de lecture des emails sont distinctes. La fonctionnalité Gmail est prévue, sous réserve des autorisations et validations requises.</p></details>
+      <details><summary data-t="faq.d.q">Peut-elle garantir qu'un téléphone est sans virus ?</summary><p data-t="faq.d.a">Non. Android limite ce que les applications peuvent examiner. AntiScam vise à fournir des contrôles utiles et transparents, sans annoncer une sécurité totale ni inventer des détections.</p></details>
+      <details><summary data-t="faq.e.q">Comment supprimer mon compte et mes données ?</summary><p><span data-t="faq.e.a">Lorsque les comptes seront disponibles, une procédure de suppression sera accessible depuis l'application. Une page dédiée explique également la démarche :</span> <a href="./delete-account.html" style="color:var(--accent);text-decoration:underline" data-t="faq.e.link">suppression de compte</a>.</p></details>
+      <div class="contact-box" id="contact"><div><p class="kicker" data-t="contact.kicker">NOUS CONTACTER</p><h2 data-t="contact.title">Une question sur AntiScam ?</h2><p data-t="contact.desc">Confidentialité, fonctionnement de l'application ou signalement d'un problème.</p></div><a class="btn btn-primary" href="mailto:alexandre.vinson1@gmail.com"><span data-t="contact.button">Écrire au développeur</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg></a></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><div class="footer-brand">AntiScam<span data-t="footer.tag">La cybersécurité, simplement.</span></div><div class="footlinks"><a href="./" data-t="footer.privacy">Confidentialité</a><a href="./delete-account.html" data-t="footer.delete">Suppression de compte</a><a href="mailto:alexandre.vinson1@gmail.com" data-t="footer.contact">Contact</a></div><span class="copyright">© <span id="year">2026</span> AntiScam</span></div></footer>
+  <script>
+    const translations={
+      en:{
+        "nav.features":"Features","nav.privacy":"Privacy","nav.about":"Our approach","nav.contact":"Contact",
+        "hero.badge":"Android app in development","hero.title1":"Digital security,","hero.title2":"made simple.","hero.intro":"AntiScam is being built to help you spot scams, understand risks on your phone, and know what to do when a message seems suspicious. Clear protection, without jargon or ads.","hero.cta1":"Explore AntiScam","hero.cta2":"Privacy policy","hero.note":"Designed for Android · French and English",
+        "mock.label":"SECURITY MADE UNDERSTANDABLE","mock.heading":"Understand the risks. Act with confidence.","mock.desc":"Readable findings and practical guidance, without misleading promises of absolute security.","mock.modules":"Planned features","mock.item1":"App security audit","mock.sub1":"Checks accessible security signals","mock.item2":"Links and QR codes","mock.sub2":"Looks for signs of scams","mock.item3":"Scam response guidance","mock.sub3":"Clear steps to take action","mock.caption":"Illustrative concept · Not all features are available yet",
+        "trust.one":"Local-first analysis","trust.two":"Sensitive access only with permission","trust.three":"No ads or advertising tracking",
+        "features.kicker":"SECURITY THAT HELPS EVERY DAY","features.title":"The essentials for spotting digital scams.","features.intro":"AntiScam brings together prevention, analysis and guidance tools. The features below are in development or planned for future versions.","feature.core":"Core feature in development","feature.future":"Planned",
+        "feature.a.title":"App security audit","feature.a.desc":"Reviews accessible information about installed apps and points out potentially risky settings.","feature.b.title":"Suspicious link detection","feature.b.desc":"Looks for phishing signals, brand impersonation and misleading addresses, with plain-language explanations.","feature.c.title":"QR codes and screenshots","feature.c.desc":"Helps check QR codes and suspicious messages using content you explicitly choose to analyze.","feature.d.title":"Scam emergency guidance","feature.d.desc":"Relevant steps after a suspicious link, exposed password or attempted fraud.","feature.e.title":"Notification alerts","feature.e.desc":"Optional analysis of selected notifications, only after you grant explicit permission.","feature.f.title":"Optional Gmail protection","feature.f.desc":"Read-only analysis of authorized emails, with separate consent and the ability to revoke access.",
+        "privacy.kicker":"PRIVACY FIRST","privacy.title":"Your personal data shouldn't be the price of staying safe.","privacy.desc":"AntiScam is designed around a simple principle: access only what is needed, explain every permission, and favor on-device processing wherever possible.","privacy.link":"Read our privacy policy","privacy.a.title":"Optional account","privacy.a.desc":"Local features are intended to work without signing up.","privacy.b.title":"Transparent permissions","privacy.b.desc":"Access to notifications and emails will always be separate and revocable.","privacy.c.title":"Protected sensitive storage","privacy.c.desc":"Local encryption and optional synchronization are planned for relevant data.","privacy.d.title":"No advertisements","privacy.d.desc":"A free tier with optional Premium features, without ad networks.",
+        "about.kicker":"A CLEARER KIND OF SECURITY","about.title":"Fewer pointless alerts. More useful answers.","about.intro":"Security doesn't have to be complicated. AntiScam aims for a simple experience grounded in verifiable signals and practical actions.","how.a.title":"Choose what to check","how.a.desc":"A link, an app, or content you have chosen to analyze.","how.b.title":"Understand the findings","how.b.desc":"Clear indicators, a confidence assessment and the limits of each check, without fear-based messaging.","how.c.title":"Take practical action","how.c.desc":"Straightforward recommendations to reduce risk or respond to scams.","roadmap.title":"Development transparency:","roadmap.desc":"AntiScam is under development. These features reflect the product direction and may change depending on Android restrictions, required approvals and security testing. The app does not promise to detect every threat.",
+        "faq.kicker":"FREQUENTLY ASKED QUESTIONS","faq.title":"What matters most.","faq.a.q":"Is AntiScam free?","faq.a.a":"The planned offering includes free essential security tools and an optional Premium subscription for advanced features. AntiScam will not display ads.","faq.b.q":"Do I need to create an account?","faq.b.a":"No. Local tools are designed to work without an account. Google sign-in may be offered for optional features such as synchronization.","faq.c.q":"Can AntiScam read all my emails?","faq.c.a":"No Gmail access will ever be granted automatically. Signing in and granting read access to email are separate actions. Gmail support is planned, subject to the required permissions and verification.","faq.d.q":"Can it guarantee that my phone is virus-free?","faq.d.a":"No. Android limits what apps can inspect. AntiScam aims to provide helpful, honest checks without promising total security or fabricating detections.","faq.e.q":"How can I delete my account and data?","faq.e.a":"When accounts become available, account deletion will be available inside the app. A dedicated page also explains the process:","faq.e.link":"account deletion",
+        "contact.kicker":"GET IN TOUCH","contact.title":"Have a question about AntiScam?","contact.desc":"Privacy, how the application works, or reporting an issue.","contact.button":"Email the developer","footer.tag":"Digital security, made simple.","footer.privacy":"Privacy policy","footer.delete":"Account deletion","footer.contact":"Contact"
+      }
+    };
+    const french={};
+    document.querySelectorAll('[data-t]').forEach(element=>{french[element.dataset.t]=element.textContent});
+    function setLanguage(lang){
+      const dict=lang==='en'?translations.en:french;
+      document.querySelectorAll('[data-t]').forEach(element=>{if(Object.hasOwn(dict,element.dataset.t))element.textContent=dict[element.dataset.t]});
+      document.documentElement.lang=lang;
+      document.title=lang==='en'?'AntiScam — Digital security made simple':'AntiScam — La cybersécurité, simplement';
+      document.querySelector('meta[name="description"]').content=lang==='en'?'AntiScam is an Android cybersecurity app in development, designed to help spot scams, inspect app security and protect privacy.':'AntiScam, votre futur compagnon de cybersécurité Android : analyse des applications, liens suspects et conseils anti-arnaque, avec une approche respectueuse de la vie privée.';
+      document.querySelectorAll('[data-lang]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.lang===lang)));
+    }
+    document.querySelectorAll('[data-lang]').forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.lang)));
+    document.getElementById('year').textContent=new Date().getFullYear();
+    if(navigator.language?.toLowerCase().startsWith('en'))setLanguage('en');
+  </script>
+</body>
+</html>
